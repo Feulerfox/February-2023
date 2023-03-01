@@ -1,0 +1,137 @@
+
+
+.main-header{
+    border-bottom: 1px solid #eee;
+    padding: 1rem 1rem 2.2rem ;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header__icon{
+    height: 2rem;
+    width: 2rem;
+    color: #333333;
+    padding-right: 1.4rem;
+}
+
+.perfumes-container__card__attributes__link{
+
+}
+
+.perfumes-container__tile{
+    min-width: 17.32rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16);
+    transition: all 0.4s;
+    position: relative;
+    min-height: 39.66rem;
+
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.perfumes-container__card-img{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    margin-bottom: 1.4rem;
+}
+
+
+.perfumes-container__card__img{
+    max-width: 13.7rem;
+}
+
+.perfumes-container__card__attributes{
+    text-align: center
+;
+}
+.perfumes-container__card__attributes__pricing{
+    font-size: 1.4rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.perfumes-container__card__attributes__pricing div:first-child{
+    background: #d91e63;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 0.2rem 0.2rem 0.4rem 0.2rem;
+    border-radius: .5rem;
+    max-width: 80%;
+
+    justify-self: center;
+
+}
+
+.perfumes-container__card__attributes__pricing div:nth-child(2){
+    text-decoration: line-through;
+    color: #747373;
+
+    display: flex;
+    align-items: center;
+}
+.perfumes-container__card__attributes__pricing div:nth-child(3){
+    color: #747373;
+
+    display: flex;
+    justify-content: center;
+}
+.perfumes-container__card__attributes__pricing div:last-child{
+    color: black;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+}
+
+.perfumes-container__card__cart-btn{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    background: black;
+    color: #fff;
+    padding: 1.4rem;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: .01rem;
+    border: 1px solid #fff;
+}
+
+.perfumes-container__card-banner:before{
+    content: "BEST SELLER";
+    min-width: 66%;
+    min-height: 2rem;
+    position: absolute;
+    background: #C92C61;
+    right: 16.5%;
+    top: -1rem;
+    font-weight: 600;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfumes-container__tile-btn-container{
+    /*text-align: center;*/
+
+    display: flex;
+    justify-content: center;
+}
+
+.perfumes-container__tile-btn{
+    border: 1px solid #555555;
+    color: black;
+}
+
+
+

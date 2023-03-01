@@ -1,0 +1,164 @@
+
+/*Sticky Bar*/
+.sticky-bar{
+    height: 2.5rem;
+    background: #732D74;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.sticky-bar__icon{
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+}
+
+.sticky-bar__link{
+    color: #fff;
+}
+
+/*MAIN NAV*/
+.main-nav {
+    border-bottom: .05rem solid #eee;
+    height: 5.1rem;
+    padding:0 1.4rem ;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav__item__login-cart{
+
+    display: flex;
+    gap: 4rem;
+}
+
+.main-nav__icon{
+    height: 1.8rem;
+    width:1.8rem;
+    color: #333;
+}
+
+
+.main-nav__item-logo{
+    padding-top: 1.3rem;
+    width: 18.12rem;
+    min-height: 3.6450rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav__logo{
+    max-width: 11.4rem;
+    height: auto;
+    aspect-ratio: auto 188/52;
+}
+
+.search-bar{
+    margin: 0 1.4rem 0.64rem;
+    max-height: 4.7rem;
+    /*border-bottom: 2px solid blueviolet;*/
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-column: 1/-1;
+    align-items: end;
+}
+
+.search-bar__item input{
+    padding: 1.3rem 1rem 1rem 0.2rem;
+    border: none;
+    border-bottom: 2px solid blueviolet;
+    width: 100%;
+}
+
+.search-bar__btn{
+    max-height: 50%;
+    border-bottom: 2px solid blueviolet;
+    align-self: end;
+}
+
+.search-bar__icon{
+    height: 1.8rem;
+    width:1.8rem;
+    color: #333;
+}
+
+/* MOBILE btn */
+.main-nav__btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.main-nav__mobile-icon{
+    height: 2.8rem;
+    width:2.8rem;
+    color: #333;
+}
+
+.main-nav__mobile-icon[name="close-outline"] {
+    display: none;
+}
+
+.header-tags {
+    padding:1.8rem 1.4rem 1.5rem;
+    border-top: 1px solid #eee;
+
+    display: flex;
+    gap: 0.5rem;
+}
+
+.header-tags__item{
+    padding:.7rem 2rem 0rem 2rem;
+    background-color: #f5f3f8;
+    border-radius: 10rem;
+
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-tags__tag{
+    height: 2rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.header-tags__icon{
+color: blueviolet;
+}
+
+.header-tags__icon-leaf{
+color: green;
+}
+
+
+.breadcrumbs{
+    color: #333333;
+    text-align: center;
+    font-size: 1.2rem;
+    padding:1.4rem;
+    word-spacing: 1rem;
+}
+
+.breadcrumbs__current{
+    font-weight: 600;
+    word-spacing: normal;
+}
+
+
+/*.breadcrumbs p span:last-child{*/
+/*    font-weight: 600;*/
+/*}*/
+

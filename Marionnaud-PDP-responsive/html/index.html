@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="../img/marionnaud-icon-filled-256.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/style/header.css">
+    <link rel="stylesheet" href="/css/style/main.css">
+    <link rel="stylesheet" href="/css/style/footer.css">
+    <link rel="stylesheet" href="/css/query.css">
+
+
+    <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+            nomodule=""
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+
+    <title>Marionnaud | Profumi, Cosmetici, Trattamenti</title>
+</head>
+    <body>
+
+    <header>
+
+    <div class="sticky-bar">
+        <a href="#" class="link sticky-bar__link">-3% EXTRA CON CARTA FEDELTà</a>
+        <ion-icon class="sticky-bar__icon" name="chevron-forward-outline"></ion-icon>
+    </div>
+
+
+
+        <div class="main-nav-container">
+            <div class="main-nav__item">
+                <button class="main-nav__btn">
+                    <ion-icon class="main-nav__mobile-icon" name="menu-outline"></ion-icon>
+                    <ion-icon class="main-nav__mobile-icon" name="close-outline"></ion-icon>
+                </button>
+            </div>
+
+            <div class="main-nav__item">
+                <ion-icon class="main-nav__icon" name="location-outline"></ion-icon>
+            </div>
+            <div class="main-nav__item main-nav__item-logo">
+                <a href="#" class="link main-nav__link">
+                    <img class="main-nav__logo" src="/img/logo-marionnaud-noir.svg" alt="Marionnaud logo">
+                </a>
+
+            </div>
+            <div class="main-nav__item">
+                    <div class="main-nav__item__login-cart">
+<!--                        Li wrappo dentro ad un div per posizionarli-->
+                        <div>
+                            <ion-icon class="main-nav__icon" name="person-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <button class="btn">
+                                <ion-icon class="main-nav__icon" name="cart-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <div class="search-bar__item">
+                <input placeholder="Cerca un prodotto, una marca..." type="search" name="search" class="site-search">
+            </div>
+            <div class="search-bar__item">
+                <button class="btn search-bar__btn">
+                    <ion-icon class="search-bar__icon" name="search-outline"></ion-icon>
+                </button>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="header-tags">
+            <div class="header-tags__item">
+                <span class="heading-tags__tag">
+                    💜 Occasioni
+                </span>
+            </div>
+            <div class="header-tags__item">
+            <span class="heading-tags__tag">
+<!--                <ion-icon class="header-tags__icon header-tags__icon-leaf" name="leaf"></ion-icon>-->
+                 🍃 Bellezza sostenibile
+            </span>
+            </div>
+            <div class="header-tags__item">
+            <span class="heading-tags__tag">
+                Profumi
+            </span>
+            </div>
+        </div>
+
+
+        <div class="breadcrumbs">
+            <p>
+                <span> Homepage</span> <span> / </span> <span> Occasioni </span> <span> / </span> <span class="breadcrumbs__current"> Tutti I Profumi </span>
+            </p>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="main-header">
+            <h2 class="heading-secondary">TUTTI I PROFUMI</h2>
+            <ion-icon class="main-header__icon" name="chevron-down"></ion-icon>
+        </section>
+
+
+<!--Product tiles-->
+
+        <section class="container perfumes-container grid grid--2-cols">
+
+
+            <div class="perfumes-container__tile">
+                <div class="perfumes-container__card-banner">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="perfumes-container__card-img">
+                <a href="#">
+                <img class="perfumes-container__card__img" src="/img/img-profumo%20sample.jpg" alt="costly perfume">
+                </a>
+                </div>
+                <div class="perfumes-container__card__attributes">
+                    <div>
+                            <a href="#" class=" link perfumes-container__card__attributes__link">
+                                Paco rabanne
+                            </a>
+                    </div>
+                    <div>
+                            <a href="#" class="link perfumes-container__card__attributes__link">
+                                Invictus
+                            </a>
+                    </div>
+                    <div>
+                            <a href="#" class="link perfumes-container__card__attributes__link">
+                                Invictus Eau de Toilette
+                            </a>
+                    </div>
+                </div>
+                <div class="perfumes-container__card__attributes__pricing">
+                    <div class="">
+                            25%
+                    </div>
+                    <div class="">
+                            €  92.85
+                    </div>
+                    <div class="">
+                            Da:
+                    </div>
+                    <div class="">
+                            €  69.64
+                    </div>
+
+                </div>
+
+                <p>Disponibile in 2 formati</p>
+
+                <button class="perfumes-container__card__cart-btn">
+                    Aggiungi al carrello
+                </button>
+            </div>
+            <div class="perfumes-container__tile">
+                <div class="perfumes-container__card-banner">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="perfumes-container__card-img">
+                <a href="#">
+                <img class="perfumes-container__card__img" src="/img/img-profumo%20sample.jpg" alt="costly perfume">
+                </a>
+                </div>
+                <div class="perfumes-container__card__attributes">
+                    <div>
+                            <a href="#" class=" link perfumes-container__card__attributes__link">
+                                Paco rabanne
+                            </a>
+                    </div>
+                    <div>
+                            <a href="#" class="link perfumes-container__card__attributes__link">
+                                Invictus
+                            </a>
+                    </div>
+                    <div>
+                            <a href="#" class="link perfumes-container__card__attributes__link">
+                                Invictus Eau de Toilette
+                            </a>
+                    </div>
+                </div>
+                <div class="perfumes-container__card__attributes__pricing">
+                    <div class="">
+                            25%
+                    </div>
+                    <div class="">
+                            €  92.85
+                    </div>
+                    <div class="">
+                            Da:
+                    </div>
+                    <div class="">
+                            €  69.64
+                    </div>
+
+                </div>
+
+                <p>Disponibile in 2 formati</p>
+
+                <button class="perfumes-container__card__cart-btn">
+                    Aggiungi al carrello
+                </button>
+            </div>
+            <div class="perfumes-container__tile">
+                <div class="perfumes-container__card-banner">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="perfumes-container__card-img">
+                    <a href="#">
+                        <img class="perfumes-container__card__img" src="/img/img-profumo%20sample.jpg" alt="costly perfume">
+                    </a>
+                </div>
+                <div class="perfumes-container__card__attributes">
+                    <div>
+                        <a href="#" class=" link perfumes-container__card__attributes__link">
+                            Paco rabanne
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="link perfumes-container__card__attributes__link">
+                            Invictus
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="link perfumes-container__card__attributes__link">
+                            Invictus Eau de Toilette
+                        </a>
+                    </div>
+                </div>
+                <div class="perfumes-container__card__attributes__pricing">
+                    <div class="">
+                        25%
+                    </div>
+                    <div class="">
+                        €  92.85
+                    </div>
+                    <div class="">
+                        Da:
+                    </div>
+                    <div class="">
+                        €  69.64
+                    </div>
+
+                </div>
+
+                <p>Disponibile in 2 formati</p>
+
+                <button class="perfumes-container__card__cart-btn">
+                    Aggiungi al carrello
+                </button>
+            </div>
+            <div class="perfumes-container__tile">
+                <div class="perfumes-container__card-banner">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="perfumes-container__card-img">
+                    <a href="#">
+                        <img class="perfumes-container__card__img" src="/img/img-profumo%20sample.jpg" alt="costly perfume">
+                    </a>
+                </div>
+                <div class="perfumes-container__card__attributes">
+                    <div>
+                        <a href="#" class=" link perfumes-container__card__attributes__link">
+                            Paco rabanne
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="link perfumes-container__card__attributes__link">
+                            Invictus
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#" class="link perfumes-container__card__attributes__link">
+                            Invictus Eau de Toilette
+                        </a>
+                    </div>
+                </div>
+                <div class="perfumes-container__card__attributes__pricing">
+                    <div class="">
+                        25%
+                    </div>
+                    <div class="">
+                        €  92.85
+                    </div>
+                    <div class="">
+                        Da:
+                    </div>
+                    <div class="">
+                        €  69.64
+                    </div>
+
+                </div>
+
+                <p>Disponibile in 2 formati</p>
+
+                <button class="perfumes-container__card__cart-btn">
+                    Aggiungi al carrello
+                </button>
+            </div>
+
+        </section>
+            <div class="perfumes-container__tile-btn-container">
+                <button class="btn perfumes-container__tile-btn">
+                    Mostra Piu' prodotti
+                </button>
+            </div>
+    </main>
+
+    <footer>
+
+        <div class="delivery-container">
+            <div class="">ritiro</div>
+            <div class="">spedizione</div>
+            <div class="">campioni</div>
+        </div>
+
+
+    </footer>
+
+
+    </body>
+
+
+</html>
